@@ -1,0 +1,68 @@
+html {
+    font-family:"droid serif";
+		color:#d3b6ca;
+		box-sizing:border-box;
+}
+
+body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:#2F1E27;
+}
+
+.answer {
+		margin-top: 1.25rem;
+		height: 2.5rem;
+}
+
+.input-question, .btn {
+	height: 2.1rem;
+	padding: 0, 18px;
+	border: 0;
+	outline: none;
+	border-radius: 22px;
+}
+
+.input-question {
+	border-radius:22px;
+	width:220px;
+	vertical-align:middle;
+	padding-left: 0.6rem;
+}
+
+.btn {
+	background:rgba(197,62,126,.33);
+	color:#ffffff;
+	cursor: pointer;
+	width: 12.5rem;
+}
+
+.form-page {
+  font-weight:100;
+	font-size:2em;
+}
+
+
+.message-paragraph {
+	font-size: 2rem;
+	margin-bottom: 5rem;
+	min-height: 6.25rem;
+	text-align: center;
+}
+
+.summary-container {
+	font-size: 2rem;
+}
+
+.summary-container span {
+	color:#F8FFB8;
+}
+
+
+
+
